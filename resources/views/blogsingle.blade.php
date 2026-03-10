@@ -1,0 +1,183 @@
+    @extends('layouts.app')
+    @section('title', $viewblogs->name . ' - BriskBrain Technologies')
+    @section('meta-title', $viewblogs->meta_title . ' - BriskBrain Technologies')
+    @section('meta-description', $viewblogs->meta_description . ' - BriskBrain Technologies')
+    @section('meta-keywords', $viewblogs->meta_keywords . ' - BriskBrain Technologies')
+
+    @section('og-title', $viewblogs->meta_title)
+    @section('og-description', $viewblogs->meta_description)
+    @section('og-url', url()->current())
+    @section('og-site-name', 'BriskBrain Technologies')
+    @section('og-type', 'article')
+    @section('og-locale', 'en_US')
+    @section('og-image', asset(ltrim($viewblogs->image, '/')))
+
+    @section('content')
+        <section class="banner-section blog-banner">
+            <div class="container">
+                <div class="contents">
+                    <h1>Blog</h1>
+                    <p>Do you want to discuss your project with us? Well, give us a call,
+                        send us an email or fill out below form.</p>
+                </div>
+            </div>
+        </section>
+        <section class="blog-section pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-9">
+                        <div class="blog-content">
+                            <ul class="blog-content-common">
+                                <h4 class="mb-0">{!! $viewblogs->name !!}</h4>
+                                <li class="pb-2">
+                                    <figure class="blog-pic">
+                                        <img class="img-fluid" src="{{ $viewblogs->image }}" alt="">
+                                    </figure>
+                                    <p class="time">{{ $viewblogs->created_at->format('F d, Y') }}</p>
+                                    <h5>{{ $viewblogs->name }}</h5>
+                                    <div class="overflow-auto p-3 bg-white"
+                                        style="max-width: 1160px; max-height: 1000px; overflow-y: scroll;">
+                                        <p>{!! $viewblogs->description !!}</p>
+                                    </div>
+                                    <div class="box">
+                                        <ul class="blog-info" style="float: left">
+                                            @if ($viewblogs->comments->count() == 0)
+                                                <li class="comment"><a href="javascript:void(0)">No comments yet</a></li>
+                                            @else
+                                                <li class="comment"><a
+                                                        href="javascript:void(0)">{{ $viewblogs->comments->count() }}
+                                                        comments</a></li>
+                                            @endif
+                                            <li class="icon-men">By Admin</li>
+                                        </ul>
+
+                                        <div class="social-media-box socialbox" style="float: right">
+                                            <ul>
+                                                <li><a target="_blank"
+                                                        href="https://www.facebook.com/sharer/sharer.php?u={{ url()->current() }}"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                                <li><a target="_blank"
+                                                        href="https://www.linkedin.com/shareArticle?url={{ url()->current() }}"><i
+                                                            class="fa fa-linkedin"></i></a></li>
+                                                <li><a target="_blank"
+                                                        href="https://twitter.com/intent/tweet?url={{ url()->current() }}&text=Check%20out%20this%20awesome%20blog%20post%3A%20{{ urlencode($viewblogs->title) }}"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                                <li><a target="_blank"
+                                                        href="https://api.whatsapp.com/send?text=Check%20out%20this%20awesome%20blog%20post%3A%20{{ urlencode($viewblogs->title) }}%20- {{ url()->current() }}"><i
+                                                            class="fa fa-whatsapp"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="comment-section" style="margin-top: 27px;">
+                                        <h4>Comments</h4>
+                                        @include('commentsDisplay', [
+                                            'comments' => $viewblogs->comments,
+                                            'post_id' => $viewblogs->id,
+                                        ])
+                                        <div class="comment-body">
+                                            <form method="post" action="{{ route('comments.store') }}">
+                                                @csrf
+                                                @if (!auth()->check())
+                                                    <div class="form-group">
+                                                        <input type="text" name="name" class="form-control"
+                                                            placeholder="Your name" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="email" name="email" class="form-control"
+                                                            placeholder="Your email" />
+                                                    </div>
+                                                @endif
+                                                <div class="form-group">
+                                                    <textarea class="form-control" name="body"></textarea>
+                                                    <input type="hidden" name="post_id" value="{{ $viewblogs->id }}" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="submit" class="btn btn-primary comment-submit"
+                                                        value="Add Comment" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <aside class="col-md-4 col-lg-3">
+                        <div class="blog-sidebar">
+                            <div class="cmn-box archive blog-content-common">
+                                <h4>Recent Posts</h4>
+                                @foreach ($latestposts as $latestitems)
+                                    <div class="article-box">
+                                        <div class="image-blog">
+                                            <a href="{{ url('blogsingle/' . $latestitems->slug) }}">
+                                                <div class="overlay"></div>
+                                                <figure class="blog-pic"><img class="img-fluid"
+                                                        src="{{ $latestitems->image }}" alt=""></figure>
+                                            </a>
+                                        </div>
+                                        <a class="blog-title" text-decoration="none"
+                                            href="{{ url('blogsingle/' . $latestitems->slug) }}">
+                                            <h6
+                                                style="margin-left: 4px; margin-top: 7px; font-size: medium;
+                                    ">
+                                                {{ $latestitems->name }}</h6>
+                                        </a>
+                                        <p class="time fa fa-calendar blogsingle-calendar">
+                                            {{ $latestitems->created_at->format('F d, Y') }}</p>
+                                    </div>
+                                @endforeach
+                            </div>
+                            <div class="cmn-box archive">
+                                <h4>Archives</h4>
+                                <ul>
+                                    @foreach ($archives as $month => $posts)
+                                        <li>
+                                            <a href="#" class="month-link">{{ $month }}</a>
+                                            <ul class="post-submenu" style="display: none">
+                                                @foreach ($posts as $post)
+                                                    <li><a
+                                                            href="{{ route('blogsingle', ['slug' => $post->slug]) }}">{{ $post->name }}</a>
+                                                    </li>
+                                                @endforeach
+                                            </ul>
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                            <div class="cmn-box">
+                                <h4>Pages</h4>
+                                <ul>
+                                    <li><a href="{{ url('home') }}">Home</a></li>
+                                    <li><a href="{{ url('about') }}">About</a></li>
+                                    <li><a href="{{ url('service') }}">Services</a></li>
+                                    <li><a href="{{ url('portfolio') }}">Portfolio</a></li>
+                                    <li><a href="{{ url('blog') }}">Blog</a></li>
+                                    <li><a href="{{ url('contact') }}">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    @endsection
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add click event listener to month links
+            $('.month-link').click(function(event) {
+                event.preventDefault(); // prevent default link behavior
+                var submenu = $(this).next('.post-submenu');
+                if (submenu.is(':visible')) {
+                    submenu.hide();
+                } else {
+                    submenu.show();
+                }
+            });
+            $('.reply-link').click(function(e) {
+                e.preventDefault();
+                $(this).closest('.comment-body').addClass('hide-comment-body');
+                $(this).closest('.comment-body').find('.reply-form').show();
+            });
+        });
+    </script>

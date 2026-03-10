@@ -1,0 +1,167 @@
+/* Style for the form container */
+.card {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+
+/* Style for form header */
+.card-header .category-form-header {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Style for form title */
+.card-header h1 {
+    font-size: 24px;
+    padding: 10px 0;
+    margin: 0;
+}
+.comment-section{
+    margin-top: 20px;
+}
+/* Style for form body */
+.card-body {
+    padding: 20px;
+}
+
+/* Style for form labels */
+.form-label {
+    font-weight: bold;
+}
+.comment-header {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.user-avatar {
+    border-radius: 20%;
+}
+
+.comment-author {
+    margin: 0; /* Remove default margin to prevent extra space */
+}
+/* Style for text inputs and textareas */
+.form-control {
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Style for file input */
+.form-control-file {
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Style for radio buttons */
+.form-check-input {
+    margin-right: 5px;
+}
+
+/* Style for submit button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Style for radio button labels when hovered */
+.form-check-label:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.flex .items-center .justify-between svg{
+    max-width: 10px;
+    max-height: 10px;
+}
+
+/* metadata */
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table headings */
+  th {
+    background-color: #eee;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Table rows */
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Table cells */
+  td {
+    padding: 10px;
+  }
+  
+  /* Table actions */
+  td.action {
+    text-align: center;
+  }
+  
+  /* Buttons */
+  .btn {
+    margin: 5px;
+  }
+  /* Add this CSS to style and position your buttons with custom class names */
+.button-container {
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.custom-button {
+    margin-right: 10px; /* Add spacing between the buttons */
+}
+
+/* Style for the "Add Posts" and "View Posts" buttons */
+.custom-button {
+    background-color: #e5f04b; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+/* Style for the "View" button inside the table */
+.view-button {
+    background-color: #28A745; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 5px 10px; /* Adjust padding as needed */
+}
+
+/* Style for the "Edit" button inside the table */
+.edit-button {
+    background-color: #FFC107; /* Change button background color */
+    color: #000; /* Change button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 5px 10px; /* Adjust padding as needed */
+}
+
+/* Style for the "Delete" button inside the table */
+.delete-button {
+    background-color: #DC3545; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 5px 10px; /* Adjust padding as needed */
+}

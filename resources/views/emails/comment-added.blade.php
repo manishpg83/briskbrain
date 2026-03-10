@@ -1,0 +1,7 @@
+<div style="background-color: #f7f7f7; padding: 20px; border: 1px solid #ddd; border-radius: 10px; margin-bottom: 20px;">
+  <h2 style="font-size: 18px; font-weight: bold; color: #3498db; text-align: center; margin-bottom: 10px;"><i class="fas fa-comment" style="font-size: 16px; margin-right: 5px; color: #3498db;"></i> New Comment Added</h2>
+  <p style="margin-bottom: 10px;"><strong style="font-weight: bold; color: #333;"><i class="fas fa-user" style="font-size: 16px; margin-right: 5px; color: #f1c40f;"></i> Name:</strong> {{ $comment->name ?? 'Anonymous' }}</p>
+  <p style="margin-bottom: 10px;"><strong style="font-weight: bold; color: #333;"><i class="fas fa-envelope" style="font-size: 16px; margin-right: 5px; color: #e74c3c;"></i> Email:</strong> {{ $comment->email ?? 'No email provided' }}</p>
+  <p style="margin-bottom: 10px;"><strong style="font-weight: bold; color: #333;"><i class="fas fa-comment" style="font-size: 16px; margin-right: 5px; color: #2ecc71;"></i> Comment:</strong> {{ $comment->body }}</p>
+  <p style="margin-bottom: 10px;"><strong style="font-weight: bold; color: #333;"><i class="fas fa-link" style="font-size: 16px; margin-right: 5px; color: #9b59b6;"></i> Post:</strong> <a href="#" style="font-size: 16px; font-weight: bold; color: #3498db; text-decoration: none;">{{ $comment->post->name }}</a></p>
+</div>

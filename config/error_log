@@ -1,0 +1,92 @@
+[20-Jun-2025 03:54:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[20-Jun-2025 03:54:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/app.php on line 18
+[20-Jun-2025 03:54:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[20-Jun-2025 03:54:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[22-Jun-2025 04:18:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[22-Jun-2025 04:18:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/app.php on line 18
+[22-Jun-2025 04:19:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[22-Jun-2025 04:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[22-Jun-2025 04:20:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/app.php on line 18
+[22-Jun-2025 04:20:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/app.php on line 18
+[30-Jun-2025 13:46:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[30-Jun-2025 13:46:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[30-Jun-2025 13:46:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[03-Jul-2025 07:34:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[03-Jul-2025 07:34:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/app.php on line 18
+[12-Jul-2025 18:55:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[10-Aug-2025 00:23:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[10-Aug-2025 00:23:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/app.php on line 18
+[10-Aug-2025 00:27:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[10-Aug-2025 00:27:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/app.php on line 18
+[10-Aug-2025 13:05:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
+[13-Sep-2025 14:34:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/app.php on line 18
+[13-Sep-2025 14:34:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/briskzty/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/briskzty/public_html/config/database.php on line 18
