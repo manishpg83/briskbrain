@@ -40,14 +40,28 @@
                 <li class="col-6 col-md-4 isotopeSelector business">
                     <div class="inner">
                         <div class="overlay">
+                            <h2>Deliverywale</h2>
+                            <p>Laravel</p>
+                            <a class="galleryItem"
+                                href="{{ asset('assets/frontend/img/portfoliyo/deliverywale.webp') }}"><span
+                                    class="icon-expand"></span></a>
+                            <a href="https://deliverywale.co.in/" target="_blank"><span class="icon-play-btn"></span></a>
+                        </div>
+                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/deliverywale.webp') }}"
+                                class="img-responsive" alt="deliverywale"></figure>
+                    </div>
+                </li>
+                <li class="col-6 col-md-4 isotopeSelector business">
+                    <div class="inner">
+                        <div class="overlay">
                             <h2>Khello</h2>
                             <p>Laravel</p>
                             <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/khello.webp') }}"><span
                                     class="icon-expand"></span></a>
                             <a href="https://khello.com.au/" target="_blank"><span class="icon-play-btn"></span></a>
                         </div>
-                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/khello.webp') }}"
-                                class="img-responsive" alt="khello"></figure>
+                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/khello.webp') }}" class="img-responsive"
+                                alt="khello"></figure>
                     </div>
                 </li>
                 <li class="col-6 col-md-4 isotopeSelector business">
@@ -82,22 +96,20 @@
                         <div class="overlay">
                             <h2>Klotho</h2>
                             <p>Laravel</p>
-                            <a class="galleryItem"
-                                href="{{ asset('assets/frontend/img/portfoliyo/klotho.webp') }}"><span
+                            <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/klotho.webp') }}"><span
                                     class="icon-expand"></span></a>
                             <a href="http://13.61.248.76/" target="_blank"><span class="icon-play-btn"></span></a>
                         </div>
-                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/klotho.webp') }}"
-                                class="img-responsive" alt="klotho"></figure>
+                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/klotho.webp') }}" class="img-responsive"
+                                alt="klotho"></figure>
                     </div>
                 </li>
-                 <li class="col-6 col-md-4 isotopeSelector wordpress">
+                <li class="col-6 col-md-4 isotopeSelector wordpress">
                     <div class="inner">
                         <div class="overlay">
                             <h2>Viscap</h2>
                             <p>WordPress</p>
-                            <a class="galleryItem"
-                                href="{{ asset('assets/frontend/img/portfoliyo/viscap.webp') }}"><span
+                            <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/viscap.webp') }}"><span
                                     class="icon-expand"></span></a>
                             <a href="https://www.viscap-cs.com/" target="_blank"><span class="icon-play-btn"></span></a>
                         </div>
@@ -105,7 +117,7 @@
                                 class="img-responsive" alt="viscap"></figure>
                     </div>
                 </li>
-                 <li class="col-6 col-md-4 isotopeSelector wordpress">
+                <li class="col-6 col-md-4 isotopeSelector wordpress">
                     <div class="inner">
                         <div class="overlay">
                             <h2>Digialch</h2>
@@ -124,8 +136,7 @@
                         <div class="overlay">
                             <h2>G4gift</h2>
                             <p>WordPress</p>
-                            <a class="galleryItem"
-                                href="{{ asset('assets/frontend/img/portfoliyo/g4gift.webp') }}"><span
+                            <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/g4gift.webp') }}"><span
                                     class="icon-expand"></span></a>
                             <a href="https://g4gift.in/" target="_blank"><span class="icon-play-btn"></span></a>
                         </div>
@@ -152,7 +163,8 @@
                         <div class="overlay">
                             <h2>Ledtronix</h2>
                             <p>Shopify</p>
-                            <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/ledtronixx.webp') }}"><span
+                            <a class="galleryItem"
+                                href="{{ asset('assets/frontend/img/portfoliyo/ledtronixx.webp') }}"><span
                                     class="icon-expand"></span></a>
                             <a href="https://ledtronix.co.za/" target="_blank"><span class="icon-play-btn"></span></a>
                         </div>
@@ -165,7 +177,8 @@
                         <div class="overlay">
                             <h2>Shopdap</h2>
                             <p>Magento</p>
-                            <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/shopdap.webp') }}"><span
+                            <a class="galleryItem"
+                                href="{{ asset('assets/frontend/img/portfoliyo/shopdap.webp') }}"><span
                                     class="icon-expand"></span></a>
                             <a href="https://www.shopdap.com/" target="_blank"><span class="icon-play-btn"></span></a>
                         </div>
@@ -389,6 +402,20 @@
                                 class="img-responsive" alt="Snaggletoothstudio"></figure>
                     </div>
                 </li>
+                <li class="col-6 col-md-4 isotopeSelector company">
+                    <div class="inner">
+                        <div class="overlay">
+                            <h2>Ledtronix</h2>
+                            <p>Magento</p>
+                            <a class="galleryItem"
+                                href="{{ asset('assets/frontend/img/portfoliyo/ledtronix.webp') }}"><span
+                                    class="icon-expand"></span></a>
+                            <a href="https://ledtronix.co.za/" target="_blank"><span class="icon-play-btn"></span></a>
+                        </div>
+                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/ledtronix.webp') }}"
+                                class="img-responsive" alt="ledtronix"></figure>
+                    </div>
+                </li>
                 <li class="col-6 col-md-4 isotopeSelector wordpress">
                     <div class="inner">
                         <div class="overlay">
@@ -488,12 +515,13 @@
                         <div class="overlay">
                             <h2>Newhom</h2>
                             <p>Python</p>
-                            <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/newhome.webp') }}"><span
+                            <a class="galleryItem"
+                                href="{{ asset('assets/frontend/img/portfoliyo/newhome.webp') }}"><span
                                     class="icon-expand"></span></a>
                             <a href="https://www.newhom.com.au/" target="_blank"><span class="icon-play-btn"></span></a>
                         </div>
-                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/newhome.webp') }}" class="img-responsive"
-                                alt="clickwik.webp"></figure>
+                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/newhome.webp') }}"
+                                class="img-responsive" alt="clickwik.webp"></figure>
                     </div>
                 </li>
             </ul>

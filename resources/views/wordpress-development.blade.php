@@ -23,8 +23,12 @@
         <div class="row">
             <div class="col-md-12">
                 <h3>WordPress Website Development Services</h3>
-                <p>BriskBrain Technologies is one of the leading <b>WordPress Website Development Company in Ahmedabad,</b> Gujarat, India. We provide effective web design and web development services at affordable prices.</p>
-                <p>WordPress is an easy way to create your business website. In WordPress, we provide dynamic functionality for a product or category menu to easily add, delete and modify your content without IT developer.</p>
+                <p>BriskBrain Technologies is one of the leading <b>WordPress Website Development Company in
+                        Ahmedabad,</b> Gujarat, India. We provide effective web design and web development services at
+                    affordable prices.</p>
+                <p>WordPress is an easy way to create your business website. In WordPress, we provide dynamic
+                    functionality for a product or category menu to easily add, delete and modify your content without
+                    IT developer.</p>
             </div>
         </div>
     </div>
@@ -34,8 +38,13 @@
         <div class="row">
             <div class="col-md-12">
                 <h3>We Introduce WordPress:</h3>
-                <p><b>WordPress</b> released in 2003, built on PHP and MySQL. It’s is free to use (Open source) for an easy way to create your website or blog. WordPress is fully content management and customizable powerful platform that grows with you. WordPress is the largest self-hosted blogging tool in the world, used on millions of websites and seen by tens of millions of people every day.</p>
-                <p>WordPress is an easy way to create your business website. In WordPress, we provide dynamic functionality for a product or category menu to easily add, delete and modify your content without IT developer.</p>
+                <p><b>WordPress</b> released in 2003, built on PHP and MySQL. It’s is free to use (Open source) for an
+                    easy way to create your website or blog. WordPress is fully content management and customizable
+                    powerful platform that grows with you. WordPress is the largest self-hosted blogging tool in the
+                    world, used on millions of websites and seen by tens of millions of people every day.</p>
+                <p>WordPress is an easy way to create your business website. In WordPress, we provide dynamic
+                    functionality for a product or category menu to easily add, delete and modify your content without
+                    IT developer.</p>
             </div>
         </div>
     </div>
@@ -45,7 +54,9 @@
         <div class="row">
             <div class="col-md-12">
                 <h3>Our Achievement in WordPress plug-in</h3>
-                <p>BriskBrain Technologies professional WordPress development team develop the custom plug-in, <b>to convert a WordPress URL into .html URL,</b> You can easily convert a WordPress URL into .html URL. And SEO friendly URL.</p>
+                <p>BriskBrain Technologies professional WordPress development team develop the custom plug-in, <b>to
+                        convert a WordPress URL into .html URL,</b> You can easily convert a WordPress URL into .html
+                    URL. And SEO friendly URL.</p>
             </div>
         </div>
     </div>
@@ -56,16 +67,18 @@
             <div class="col-md-12">
                 <h3>Why you Choose WordPress Website Development?</h3>
                 <ul class="our-values">
-                    <li>More option to choose your <b>website design</b> with eye-catching themes, also you can build custom- plugins.</li>
+                    <li>More option to choose your <b>website design</b> with eye-catching themes, also you can build
+                        custom- plugins.</li>
                     <li>In WordPress, To Custom-made designs and templates for your requirement</li>
                     <li>In WordPress to create Custom Plugins Development for your requirement</li>
                     <li>In your website easy to publish your content</li>
                     <li>Your website is work on any browser with full compliance or standards set by the W3C.</li>
                     <li>Search Engine and SEO friendly</li>
-                    <li>To create any type of blog or website in WordPress like the business website, government website, magazine website, news website, and online community portal.</li>
+                    <li>To create any type of blog or website in WordPress like the business website, government
+                        website, magazine website, news website, and online community portal.</li>
                 </ul>
-            </div>                    
-        </div>                
+            </div>
+        </div>
     </div>
 </section>
 <section class="career-our-values-sec pt-4">
@@ -86,86 +99,147 @@
                     <li>WooCommerce Development</li>
                     <li>And many more in WordPress…</li>
                 </ul>
-            </div>                    
-        </div>                
+            </div>
+        </div>
     </div>
-</section>        
-<section class="portfolio-outer padding-lg"> 
+</section>
+<section class="portfolio-outer padding-lg">
     <div class="container text-center">
         <h2 class="main-title">Related Portfilio</h2>
         <ul class="row portfolio clearfix isotopeContainer">
             <li class="col-6 col-md-4 isotopeSelector wordpress">
-            <div class="inner">
-                            <div class="overlay">
-                                <h2>webcado-kunden</h2>
-                                <p>WordPress</p>
-                                <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/swiss.webp') }}"><span class="icon-expand"></span></a>
-                                <a  href="https://webcado-kunden.de/" target="_blank"><span class="icon-play-btn"></span></a>
-                            </div>
-                            <figure><img src="{{ asset('assets/frontend/img/portfoliyo/swiss.webp') }}" class="img-responsive" alt="swiss"></figure>
-                        </div>
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>Viscap</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/viscap.webp') }}"><span
+                                class="icon-expand"></span></a>
+                        <a href="https://www.viscap-cs.com/" target="_blank"><span class="icon-play-btn"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/viscap.webp') }}" class="img-responsive"
+                            alt="viscap"></figure>
+                </div>
             </li>
             <li class="col-6 col-md-4 isotopeSelector wordpress">
-            <div class="inner">
-                            <div class="overlay">
-                                <h2>Linksupply</h2>
-                                <p>WordPress</p>
-                                <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/linksupply.webp') }}"><span class="icon-expand"></span></a>
-                                <a  href="https://linksupply.ie/" target="_blank"><span class="icon-play-btn"></span></a>
-                            </div>
-                            <figure><img src="{{ asset('assets/frontend/img/portfoliyo/linksupply.webp') }}" class="img-responsive" alt="linksupply"></figure>
-                        </div>
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>Digialch</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/digialch.webp') }}"><span
+                                class="icon-expand"></span></a>
+                        <a href="https://digialch.com/" target="_blank"><span class="icon-play-btn"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/digialch.webp') }}"
+                            class="img-responsive" alt="digialch"></figure>
+                </div>
             </li>
             <li class="col-6 col-md-4 isotopeSelector wordpress">
-            <div class="inner">
-                            <div class="overlay">
-                                <h2>Maximumpaidsurveys</h2>
-                                <p>WordPress</p>
-                                <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/Maximumpaidsurveys.webp') }}"><span class="icon-expand"></span></a>
-                                <a  href="https://maximumpaidsurveys.com/" target="_blank"><span class="icon-play-btn"></span></a>
-                            </div>
-                            <figure><img src="{{ asset('assets/frontend/img/portfoliyo/Maximumpaidsurveys.webp') }}" class="img-responsive" alt="Maximumpaidsurveys"></figure>
-                        </div>
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>G4gift</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/g4gift.webp') }}"><span
+                                class="icon-expand"></span></a>
+                        <a href="https://g4gift.in/" target="_blank"><span class="icon-play-btn"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/g4gift.webp') }}" class="img-responsive"
+                            alt="g4gift"></figure>
+                </div>
             </li>
             <li class="col-6 col-md-4 isotopeSelector wordpress">
-            <div class="inner">
-                            <div class="overlay">
-                                <h2>Eaprincipals</h2>
-                                <p>WordPress</p>
-                                <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/Eaprincipals.webp') }}"><span class="icon-expand"></span></a>
-                                <a  href="https://eaprincipals.com/" target="_blank"><span class="icon-play-btn"></span></a>
-                            </div>
-                            <figure><img src="{{ asset('assets/frontend/img/portfoliyo/Eaprincipals.webp') }}" class="img-responsive" alt="Eaprincipals"></figure>
-                        </div>
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>webcado-kunden</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/swiss.webp') }}"><span
+                                class="icon-expand"></span></a>
+                        <a href="https://webcado-kunden.de/" target="_blank"><span class="icon-play-btn"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/swiss.webp') }}" class="img-responsive"
+                            alt="swiss"></figure>
+                </div>
             </li>
             <li class="col-6 col-md-4 isotopeSelector wordpress">
-            <div class="inner">
-                            <div class="overlay">
-                                <h2>Custom Plugin Frontend</h2>
-                                <p>WordPress</p>
-                                <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/cutom_plugin_frontend.webp  ') }}"><span class="icon-expand"></span></a>
-                            </div>
-                            <figure><img src="{{ asset('assets/frontend/img/portfoliyo/cutom_plugin_frontend.webp') }}" class="img-responsive" alt="cutom_plugin_frontend"></figure>
-                        </div>
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>Linksupply</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem"
+                            href="{{ asset('assets/frontend/img/portfoliyo/linksupply.webp') }}"><span
+                                class="icon-expand"></span></a>
+                        <a href="https://linksupply.ie/" target="_blank"><span class="icon-play-btn"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/linksupply.webp') }}"
+                            class="img-responsive" alt="linksupply"></figure>
+                </div>
             </li>
             <li class="col-6 col-md-4 isotopeSelector wordpress">
-            <div class="inner">
-                            <div class="overlay">
-                                <h2>Custom Plugin Backend</h2>
-                                <p>WordPress</p>
-                                <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/cutom_plugin_backend.webp') }}"><span class="icon-expand"></span></a>
-                            </div>
-                            <figure><img src="{{ asset('assets/frontend/img/portfoliyo/cutom_plugin_backend.webp') }}" class="img-responsive" alt="cutom_plugin_backend"></figure>
-                        </div>
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>Maximumpaidsurveys</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem"
+                            href="{{ asset('assets/frontend/img/portfoliyo/Maximumpaidsurveys.webp') }}"><span
+                                class="icon-expand"></span></a>
+                        <a href="https://maximumpaidsurveys.com/" target="_blank"><span
+                                class="icon-play-btn"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/Maximumpaidsurveys.webp') }}"
+                            class="img-responsive" alt="Maximumpaidsurveys"></figure>
+                </div>
             </li>
             <li class="col-6 col-md-4 isotopeSelector wordpress">
-            <div class="inner">
-                            <div class="overlay">
-                                <h2>Robert Roth</h2>
-                                <p>WordPress</p>
-                                <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/robert_roth.webp') }}"><span class="icon-expand"></span></a></div>
-                            <figure><img src="{{ asset('assets/frontend/img/portfoliyo/robert_roth.webp') }}" class="img-responsive" alt="robert_roth"></figure>
-                        </div>
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>Eaprincipals</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem"
+                            href="{{ asset('assets/frontend/img/portfoliyo/Eaprincipals.webp') }}"><span
+                                class="icon-expand"></span></a>
+                        <a href="https://eaprincipals.com/" target="_blank"><span class="icon-play-btn"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/Eaprincipals.webp') }}"
+                            class="img-responsive" alt="Eaprincipals"></figure>
+                </div>
+            </li>
+            <li class="col-6 col-md-4 isotopeSelector wordpress">
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>Custom Plugin Frontend</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem"
+                            href="{{ asset('assets/frontend/img/portfoliyo/cutom_plugin_frontend.webp  ') }}"><span
+                                class="icon-expand"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/cutom_plugin_frontend.webp') }}"
+                            class="img-responsive" alt="cutom_plugin_frontend"></figure>
+                </div>
+            </li>
+            <li class="col-6 col-md-4 isotopeSelector wordpress">
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>Custom Plugin Backend</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem"
+                            href="{{ asset('assets/frontend/img/portfoliyo/cutom_plugin_backend.webp') }}"><span
+                                class="icon-expand"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/cutom_plugin_backend.webp') }}"
+                            class="img-responsive" alt="cutom_plugin_backend"></figure>
+                </div>
+            </li>
+            <li class="col-6 col-md-4 isotopeSelector wordpress">
+                <div class="inner">
+                    <div class="overlay">
+                        <h2>Robert Roth</h2>
+                        <p>WordPress</p>
+                        <a class="galleryItem"
+                            href="{{ asset('assets/frontend/img/portfoliyo/robert_roth.webp') }}"><span
+                                class="icon-expand"></span></a>
+                    </div>
+                    <figure><img src="{{ asset('assets/frontend/img/portfoliyo/robert_roth.webp') }}"
+                            class="img-responsive" alt="robert_roth"></figure>
+                </div>
             </li>
         </ul>
     </div>

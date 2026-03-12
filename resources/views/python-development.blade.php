@@ -78,11 +78,11 @@
                         <div class="overlay">
                             <h2>Ohtel</h2>
                             <p>Python</p>
-                            <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/ohtel.png') }}"><span
+                            <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/Ohtel.webp') }}"><span
                                     class="icon-expand"></span></a>
-                            <a href="https://www.ohtel.in/" target="_blank"><span class="icon-play-btn"></span></a>
+                            <a href="https://ohtelglobal.com/" target="_blank"><span class="icon-play-btn"></span></a>
                         </div>
-                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/ohtel.png') }}" class="img-responsive"
+                        <figure><img src="{{ asset('assets/frontend/img/portfoliyo/Ohtel.webp') }}" class="img-responsive"
                                 alt="clickwik.webp"></figure>
                     </div>
                 </li>
