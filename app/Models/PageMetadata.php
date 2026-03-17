@@ -8,6 +8,17 @@ use Illuminate\Database\Eloquent\Model;
 class PageMetadata extends Model
 {
     use HasFactory;
+
+    protected static function booted()
+    {
+        static::saved(function ($metadata) {
+            cache()->forget("page_metadata_{$metadata->page_name}");
+        });
+
+        static::deleted(function ($metadata) {
+            cache()->forget("page_metadata_{$metadata->page_name}");
+        });
+    }
     protected $table = 'page_metadata';
 
     protected $fillable = [

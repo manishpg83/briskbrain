@@ -10,11 +10,11 @@
 }
 
 .blog-title a:hover {
-    color: #f29200; /* Change text color to #f29200 on hover */
+    color: #a06000; /* Change text color to #a06000 on hover */
 }
 
 .blog-title a:hover h5 {
-    color: #f29200 !important; /* Change h5 element's color to #f29200 on hover */
+    color: #a06000 !important; /* Change h5 element's color to #a06000 on hover */
 }
 *,
 ::after,
@@ -26,7 +26,7 @@ a {
     text-decoration: none !important;
 }
 a:hover {
-    color: #f29200;
+    color: #a06000;
     text-decoration: none;
     cursor: pointer;
 }
@@ -72,8 +72,8 @@ a:hover {
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: #f29200;
-    border-color: #f29200;
+    background-color: #a06000;
+    border-color: #a06000;
     margin-block: -2px;
     border-radius: 5px;
 }
@@ -115,7 +115,7 @@ img.img-logo {
     margin-top: 30px;
 }
 .icons {
-    border: 2px solid #f29200;
+    border: 2px solid #bf7200;
     background: #fff;
     height: 100px;
     width: 100px;
@@ -126,8 +126,8 @@ img.img-logo {
 }
 .icons:hover {
     background-color: #fff;
-    border: 2px solid #f29200;
-    background: #f29200;
+    border: 2px solid #a06000;
+    background: #a06000;
 }
 .icons:hover i.iconskill {
     color: #fff;
@@ -160,7 +160,7 @@ img.img-logo {
     border-radius: 50%;
     content: "";
     box-sizing: content-box;
-    box-shadow: 0 0 0 3px #f29200;
+    box-shadow: 0 0 0 3px #a06000;
     top: 0;
     left: 0;
     opacity: 0;
@@ -168,7 +168,7 @@ img.img-logo {
 }
 i.iconskill {
     font-size: 70px;
-    color: #f29200;
+    color: #a06000;
     display: flex;
     justify-content: center;
     padding: 15px 0px;
@@ -216,10 +216,10 @@ li.address-li p {
     font-size: 14px;
 }
 .footertext li a:hover {
-    color: #f29200;
+    color: #a06000;
 }
 .footertext li:hover i {
-    color: #f29200;
+    color: #a06000;
 }
 .footertext li {
     list-style-type: none;
@@ -235,7 +235,7 @@ ul.footertext li i {
     transition: 0.8s;
 }
 .header-top ul.follow-us li a i:hover {
-    color: #f29200;
+    color: #a06000;
 }
 section.technologies-section {
     background: #f5f5f5;
@@ -259,7 +259,7 @@ section.technologies-section {
 }
 .iconbox i {
     font-size: 50px;
-    color: #f29200;
+    color: #a06000;
     margin-bottom: 20px;
 }
 i.noteicon {
@@ -557,11 +557,11 @@ p.time {
     transition: all 0.3s ease 0s;
 }
 .image-blog:hover {
-    border: 3px solid #f29200;
+    border: 3px solid #a06000;
 }
 .blog-content-common li a.galleryItem:hover {
     background: #fff;
-    color: #f29200;
+    color: #a06000;
 }
 .socialbox {
     padding: 0px;
@@ -581,20 +581,20 @@ p.time {
 h3.blog-maintitle {
     margin-top: 20px;
     margin-bottom: 10px;
-    color: #f29200;
+    color: #a06000;
     font-size: 24px;
     font-weight: 500;
 }
 .blog-quote {
     background: #f7f7f7;
     padding: 20px 25px 24px;
-    border-left: 3px solid #f29200;
+    border-left: 3px solid #a06000;
 }
 ul.blog-content-common .blog-quote p {
     padding: 0px;
 }
 strong {
-    color: #f29200;
+    color: #a06000;
 }
 .img-blogimage {
     height: 125px;
@@ -633,7 +633,7 @@ section.related-service {
     background: #f7f7f7;
 }
 a.siteurl {
-    color: #f29200;
+    color: #a06000;
     font-weight: 500;
 }
 ul.our-values li {
@@ -643,7 +643,7 @@ ul.our-values li {
 .close.btnclose {
     margin: 0px;
     background: transparent;
-    color: #f29200;
+    color: #a06000;
     padding: 0px;
     right: 8px;
     top: 16px;
@@ -661,7 +661,7 @@ ul.our-values li {
 }
 .ourskillbar {
     padding: 4px;
-    background: #f29200;
+    background: #a06000;
     margin: 8px 0px 25px;
     color: #676767;
     display: block;

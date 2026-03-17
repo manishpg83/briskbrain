@@ -33,10 +33,11 @@
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script>
         (function() {
             var link = document.createElement('link');
-            link.href = 'https://fonts.bunny.net/css?family=Nunito';
+            link.href = 'https://fonts.bunny.net/css?family=Nunito&display=swap';
             link.rel = 'stylesheet';
             link.type = 'text/css';
             link.async = true;
@@ -45,13 +46,13 @@
     </script>
 
     <!-- Bootstrap and custom styles -->
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.min.css') }}" async>
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.min.css') }}">
     <link href="{{ asset('assets/frontend/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/frontend/css/iconmoon.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/frontend/css/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/frontend/css/magnific-popup.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/frontend/css/animate.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}" async>
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}">
     <link href="{{ asset('assets/frontend/css/custom.css') }}" rel="stylesheet">
 
     <!-- Google Tag Manager -->
@@ -84,25 +85,6 @@
         gtag('js', new Date());
         gtag('config', 'G-WZLRWZ535F');
     </script>
-
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5WG5Q6J');
-    </script>
-    <!-- End Google Tag Manager -->
 </head>
 
 <body>

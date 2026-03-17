@@ -10,6 +10,25 @@ class Post extends Model
 {
     use HasFactory, HasTags;
 
+    protected static function booted()
+    {
+        static::saved(function ($post) {
+            cache()->forget('resent_posts_home');
+            cache()->forget('resent_posts_4');
+            cache()->forget('latest_posts_3');
+            cache()->forget('blog_archives');
+            cache()->forget('blog_archives_full');
+        });
+
+        static::deleted(function ($post) {
+            cache()->forget('resent_posts_home');
+            cache()->forget('resent_posts_4');
+            cache()->forget('latest_posts_3');
+            cache()->forget('blog_archives');
+            cache()->forget('blog_archives_full');
+        });
+    }
+
     protected $table = 'posts';
     protected $primaryKey = 'id';
     protected $fillable = [

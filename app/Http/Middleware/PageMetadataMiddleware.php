@@ -19,11 +19,22 @@ class PageMetadataMiddleware
     {
         $currentRouteName = Route::currentRouteName();
 
-        // Fetch metadata based on the route name
-        $pageMetadata = PageMetadata::where('page_name', $currentRouteName)->first();
+        $pageMetadata = cache()->remember("page_metadata_{$currentRouteName}", 86400, function () use ($currentRouteName) {
+            return PageMetadata::where('page_name', $currentRouteName)->first();
+        });
     
-        // Share the data with all views
         view()->share('pageMetadata', $pageMetadata);
+
+        $metaTitle = $pageMetadata ? $pageMetadata->title : "Top Web Development Services provider - BriskBrain Technologies";
+        $title = $pageMetadata ? $pageMetadata->title : "BriskBrain";
+        $metaDescription = $pageMetadata ? $pageMetadata->meta_description : "Top Web Development Service Provider Company, Laravel, Vue.js, Node.Js, Magento 2, CodeIgniter, Yii, Wordpress, Ruby onRails, ROR, Mobile app, IoT, Restful APIs, Payment Gateway, Web Design, Responsive Design, Top Web Development Company in Ahmedabad, Top Web Development Company in India";
+        $metaKeywords = $pageMetadata ? $pageMetadata->meta_keywords : "BriskBrain";
+
+        view()->share('metaTitle', $metaTitle);
+        view()->share('title', $title);
+        view()->share('metaDescription', $metaDescription);
+        view()->share('metaKeywords', $metaKeywords);
+        view()->share('metakeywords', $metaKeywords);
     
         return $next($request);
     }

@@ -33,10 +33,10 @@
 
                 <div class="clearfix right-block">
                     <ul class="follow-us">
-                        <li><a href="https://www.facebook.com/BriskBrainTechnologies" target="_blank"><i
+                        <li><a href="https://www.facebook.com/BriskBrainTechnologies" target="_blank" aria-label="Follow us on Facebook"><i
                                     class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li>
-                            <a href="https://teams.microsoft.com/l/chat/0/0?users=manish.bhuvait@gmail.com" target="_blank">
+                            <a href="https://teams.microsoft.com/l/chat/0/0?users=manish.bhuvait@gmail.com" target="_blank" aria-label="Chat with us on Microsoft Teams">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-microsoft-teams" viewBox="0 0 16 16" style="margin-bottom: -3px;">
                                     <path
@@ -46,11 +46,11 @@
                                 </svg>
                             </a>
                         </li>
-                        <li><a href="https://www.linkedin.com/company/briskbrain/" target="_blank"><i
+                        <li><a href="https://www.linkedin.com/company/briskbrain/" target="_blank" aria-label="Follow us on LinkedIn"><i
                                     class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/BriskBrain2" target="_blank"><i class="fa fa-twitter"
+                        <li><a href="https://twitter.com/BriskBrain2" target="_blank" aria-label="Follow us on Twitter"><i class="fa fa-twitter"
                                     aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.instagram.com/briskbrain_technologies" target="_blank"><i class="fa fa-instagram"
+                        <li><a href="https://www.instagram.com/briskbrain_technologies" target="_blank" aria-label="Follow us on Instagram"><i class="fa fa-instagram"
                                     aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
@@ -60,7 +60,7 @@
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     @if (optional($setting)->logo)
-                        <img src="{{ optional($setting)->logo }}" class="img-logo" alt="">
+                        <img src="{{ optional($setting)->logo }}" class="img-logo" alt="BriskBrain Technologies Logo">
                     @endif
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"

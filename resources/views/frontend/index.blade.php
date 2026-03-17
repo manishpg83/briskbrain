@@ -131,7 +131,7 @@
                     <div class="col-md-6 mobile-img">
                         <figure class="animated fadeInUp delay-06s"><img
                                 src="{{ asset('assets/frontend/img/web_vector.webp') }}" class="img-slide1"
-                                alt="web_vector"></figure>
+                                alt="web_vector" fetchpriority="high" width="600" height="400"></figure>
                     </div>
                 </div>
             </div>
@@ -144,13 +144,13 @@
                     <div class="col-md-6 mobile-img">
                         <figure class="animated fadeInDown delay-06s"><img
                                 src="{{ asset('assets/frontend/img/niche_vecor2.webp') }}" class="img-fluid"
-                                alt="niche_vecor2"></figure>
+                                alt="niche_vecor2" width="600" height="400"></figure>
                         <figure class="animated fadeInRight delay-06s"><img
                                 src="{{ asset('assets/frontend/img/niche_vecor4_1.webp') }}" class="img-slide2-02"
-                                alt="niche_vecor4_1"></figure>
+                                alt="niche_vecor4_1" width="300" height="200"></figure>
                         <figure class="animated fadeInUp delay-06s"><img
                                 src="{{ asset('assets/frontend/img/niche_vector1.webp') }}" class="img-fluid"
-                                alt="niche_vector1"></figure>
+                                alt="niche_vector1" width="600" height="400"></figure>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                     <div class="col-md-6 mobile-img">
                         <figure class="animated fadeInLeft delay-06s"><img
                                 src="{{ asset('assets/frontend/img/service_vector.webp') }}" class="img-fluid"
-                                alt="service_vector"></figure>
+                                alt="service_vector" width="600" height="400"></figure>
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@
     </div>
 </section>
 <div class="mobile-img-dev">
-    <img src="{{ asset('assets/frontend/img/web-development_mobile.webp') }}" alt="Simple Mobile Image">
+    <img src="{{ asset('assets/frontend/img/web-development_mobile.webp') }}" alt="Simple Mobile Image" fetchpriority="high" width="600" height="300">
 </div>
 <section class="content-marketing padding-lg">
     <div class="container">
@@ -255,21 +255,21 @@
 </section>
 <section class="technologies-section">
     <div class="container">
-        <h2 class="main-title">We are BriskBrain Technologies</h2>
+        <h1 class="main-title">We are BriskBrain Technologies</h1>
         <div class="row">
             <div class="col-lg-6 cnt-block website-technologies">
-                <h5 class="service-provider-title">Website and Mobile App Development service provider</h5>
+                <h3 class="service-provider-title">Website and Mobile App Development service provider</h3>
                 <p>BriskBrain Technologies is reliably serving worldwide customers for web design and development
                     services with latest technologies, tools and skill set.</p>
                 <p>Our aim is to offer the cutting edge consulting and web development services to small businesses and
                     startups which have been available only to medium and large organizations so far.</p>
                 <p>If you have a challenging product, application or service to build with a strong focus on quality,
                     expert team and time to market, we can help you realize your vision.</p>
-                <a href="#" class="know-more btn-learn-more">Learn More</a>
+                <a href="#" class="know-more btn-learn-more" aria-label="Learn more about our development services">Learn More</a>
             </div>
             <div class="col-lg-6">
                 <figure class="img"><img src="{{ asset('assets/frontend/img/about-briskbraintech-business.webp') }}"
-                        class="img-fluid" alt="about-briskbraintech-business"></figure>
+                        class="img-fluid" alt="about-briskbraintech-business" width="600" height="400"></figure>
             </div>
         </div>
     </div>
@@ -323,38 +323,38 @@
         </div>
         <div class="clients-grid">
             <div class="client-logo">
-                <img src="{{ asset('assets/frontend/img/clients/trackie.png') }}" alt="trackie" class="img-fluid">
+                <img src="{{ asset('assets/frontend/img/clients/trackie.png') }}" alt="trackie" class="img-fluid" width="120" height="60">
             </div>
             <div class="client-logo">
-                <img src="{{ asset('assets/frontend/img/clients/viscap.png') }}" alt="viscap" class="img-fluid">
+                <img src="{{ asset('assets/frontend/img/clients/viscap.png') }}" alt="viscap" class="img-fluid" width="120" height="60">
             </div>
             <div class="client-logo">
                 <img src="{{ asset('assets/frontend/img/clients/nchealthhub.png') }}" alt="nchealthhub"
-                    class="img-fluid">
+                    class="img-fluid" width="120" height="60">
             </div>
             <div class="client-logo">
                 <img src="{{ asset('assets/frontend/img/clients/linksupply.png') }}" alt="linksupply"
-                    class="img-fluid">
+                    class="img-fluid" width="120" height="60">
             </div>
             <div class="client-logo">
-                <img src="{{ asset('assets/frontend/img/clients/clikwik.png') }}" alt="clikwik" class="img-fluid">
+                <img src="{{ asset('assets/frontend/img/clients/clikwik.png') }}" alt="clikwik" class="img-fluid" width="120" height="60">
             </div>
             <div class="client-logo">
                 <img src="{{ asset('assets/frontend/img/clients/scraperite.png') }}" alt="scraperite"
-                    class="img-fluid">
+                    class="img-fluid" width="120" height="60">
             </div>
             <div class="client-logo">
-                <img src="{{ asset('assets/frontend/img/clients/ohtel.png') }}" alt="ohtel" class="img-fluid">
+                <img src="{{ asset('assets/frontend/img/clients/ohtel.png') }}" alt="ohtel" class="img-fluid" width="120" height="60">
             </div>
             <div class="client-logo">
-                <img src="{{ asset('assets/frontend/img/clients/led.png') }}" alt="shopdap" class="img-fluid">
+                <img src="{{ asset('assets/frontend/img/clients/led.png') }}" alt="shopdap" class="img-fluid" width="120" height="60">
             </div>
             <div class="client-logo">
                 <img src="{{ asset('assets/frontend/img/clients/drweiss.png') }}" alt="drwiess"
-                    class="img-fluid">
+                    class="img-fluid" width="120" height="60">
             </div>
             <div class="client-logo">
-                <img src="{{ asset('assets/frontend/img/clients/logo_black.png') }}" alt="logo_black" class="img-fluid">
+                <img src="{{ asset('assets/frontend/img/clients/logo_black.png') }}" alt="logo_black" class="img-fluid" width="120" height="60">
             </div>
         </div>
     </div>
@@ -371,10 +371,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile.png') }}"
-                            class="img-fluid rounded-circle" alt="profile"></figure>
+                            class="img-fluid rounded-circle" alt="profile" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Andre Forde</h4>
+                        <h3>Andre Forde</h3>
                         <span class="designation">USA</span>
                     </div>
                     <p>“5 out of 5 stars. Always responsive and professional.”</p>
@@ -383,10 +383,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile_logo_22073579.jpg') }}"
-                            class="img-fluid rounded-circle" alt="profile_logo"></figure>
+                            class="img-fluid rounded-circle" alt="profile_logo" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Testunity</h4>
+                        <h3>Testunity</h3>
                         <span class="designation">USA</span>
                     </div>
                     <p>“BriskBrain is too good in understanding the requirement. His technical skill is awesome. Want to
@@ -396,10 +396,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile.png') }}"
-                            class="img-fluid rounded-circle" alt="profile"></figure>
+                            class="img-fluid rounded-circle" alt="profile" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Mchibly</h4>
+                        <h3>Mchibly</h3>
                         <span class="designation">Brazil</span>
                     </div>
                     <p>“briskbrain is a very good professional.. I recommend “</p>
@@ -408,10 +408,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile_logo_26535677.jpg') }}"
-                            class="img-fluid rounded-circle" alt="profile_logo"></figure>
+                            class="img-fluid rounded-circle" alt="profile_logo" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Vijay Ranganathapura</h4>
+                        <h3>Vijay Ranganathapura</h3>
                         <span class="designation">India</span>
                     </div>
                     <p>“Nice person. Was up to speed quickly and delivered the results on time.”</p>
@@ -420,10 +420,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile.png') }}"
-                            class="img-fluid rounded-circle" alt="profile"></figure>
+                            class="img-fluid rounded-circle" alt="profile" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Marlon M.</h4>
+                        <h3>Marlon M.</h3>
                         <span class="designation">United States</span>
                     </div>
                     <p>“Great developer and easy to work with. Very fast resolution as well. I recommend this developer
@@ -433,10 +433,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile.png') }}"
-                            class="img-fluid rounded-circle" alt="profile"></figure>
+                            class="img-fluid rounded-circle" alt="profile" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Hazim N.</h4>
+                        <h3>Hazim N.</h3>
                         <span class="designation">Malaysia</span>
                     </div>
                     <p>“It was pleasant to work with Manish, communications were clear and work was delivered on time.“
@@ -446,10 +446,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile_logo_15562219.jpg') }}"
-                            class="img-fluid rounded-circle" alt="profile_logo"></figure>
+                            class="img-fluid rounded-circle" alt="profile_logo" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Leetdave</h4>
+                        <h3>Leetdave</h3>
                         <span class="designation">Philippines</span>
                     </div>
                     <p>“Very Professional =)”</p>
@@ -458,10 +458,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile_logo_24696770.jpg') }}"
-                            class="img-fluid rounded-circle" alt="profile_logo"></figure>
+                            class="img-fluid rounded-circle" alt="profile_logo" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Acheros</h4>
+                        <h3>Acheros</h3>
                         <span class="designation">Germany</span>
                     </div>
                     <p>“A needed someone who was able to do something very specific and he was just the right man to do
@@ -471,10 +471,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile_logo_19399235.jpg') }}"
-                            class="img-fluid rounded-circle" alt="profile_logo"></figure>
+                            class="img-fluid rounded-circle" alt="profile_logo" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Boogieyourmind</h4>
+                        <h3>Boogieyourmind</h3>
                         <span class="designation">Australia</span>
                     </div>
                     <p>“Thanks so much. truely great work. will book you again.”</p>
@@ -483,10 +483,10 @@
             <li>
                 <div class="inner">
                     <figure><img src="{{ asset('assets/frontend/img/profile_logo_7214273.jpg') }}"
-                            class="img-fluid rounded-circle" alt="profile_logo"></figure>
+                            class="img-fluid rounded-circle" alt="profile_logo" width="80" height="80"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Pal Sidhu</h4>
+                        <h3>Pal Sidhu</h3>
                         <span class="designation">Australia</span>
                     </div>
                     <p>“Initially had confusions understanding our project, but through constant communication and
@@ -500,7 +500,7 @@
                             class="img-fluid rounded-circle" alt="review"></figure>
                     <span class="icon-quote"></span>
                     <div class="client-detail">
-                        <h4>Marc S.</h4>
+                        <h3>Marc S.</h3>
                         <span class="designation">United States</span>
                     </div>
                     <p>“Awesome job, kept cool head with the few bugs that the project developed.
@@ -518,47 +518,47 @@
             <li class="col-6 col-md-4 isotopeSelector company">
                 <div class="inner">
                     <div class="overlay">
-                        <h2>Ledtronix</h2>
+                        <h3>Ledtronix</h3>
                         <p>Magento</p>
                         <a class="galleryItem"
-                            href="{{ asset('assets/frontend/img/portfoliyo/ledtronix.webp') }}"><span
+                            href="{{ asset('assets/frontend/img/portfoliyo/ledtronix.webp') }}" aria-label="Expand Ledtronix project image"><span
                                 class="icon-expand"></span></a>
-                        <a href="https://ledtronix.co.za/" target="_blank"><span class="icon-play-btn"></span></a>
+                        <a href="https://ledtronix.co.za/" target="_blank" aria-label="Visit Ledtronix website"><span class="icon-play-btn"></span></a>
                     </div>
                     <figure><img src="{{ asset('assets/frontend/img/portfoliyo/ledtronix.webp') }}"
-                            class="img-responsive" alt="ledtronix"></figure>
+                            class="img-responsive" alt="ledtronix" width="400" height="300"></figure>
                 </div>
             </li>
             <li class="col-6 col-md-4 isotopeSelector wordpress">
                 <div class="inner">
                     <div class="overlay">
-                        <h2>webcado-kunden</h2>
+                        <h3>webcado-kunden</h3>
                         <p>WordPress</p>
-                        <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/swiss.webp') }}"><span
+                        <a class="galleryItem" href="{{ asset('assets/frontend/img/portfoliyo/swiss.webp') }}" aria-label="Expand Swiss project image"><span
                                 class="icon-expand"></span></a>
-                        <a href="#" target="_blank"><span class="icon-play-btn"></span></a>
+                        <a href="#" target="_blank" aria-label="Visit Swiss project website"><span class="icon-play-btn"></span></a>
                     </div>
                     <figure><img src="{{ asset('assets/frontend/img/portfoliyo/swiss.webp') }}"
-                            class="img-responsive" alt="swiss" loading="lazy"></figure>
+                            class="img-responsive" alt="swiss" loading="lazy" width="400" height="300"></figure>
                 </div>
             </li>
             <li class="col-6 col-md-4 isotopeSelector business">
                 <div class="inner">
                     <div class="overlay">
-                        <h2>Nchealthhub</h2>
+                        <h3>Nchealthhub</h3>
                         <p>Laravel</p>
                         <a class="galleryItem"
-                            href="{{ asset('assets/frontend/img/portfoliyo/nclhealth.webp') }}"><span
+                            href="{{ asset('assets/frontend/img/portfoliyo/nclhealth.webp') }}" aria-label="Expand Nchealthhub project image"><span
                                 class="icon-expand"></span></a>
-                        <a href="https://www.nchealthhub.com/" target="_blank"><span
+                        <a href="https://www.nchealthhub.com/" target="_blank" aria-label="Visit Nchealthhub website"><span
                                 class="icon-play-btn"></span></a>
                     </div>
                     <figure><img src="{{ asset('assets/frontend/img/portfoliyo/nclhealth.webp') }}"
-                            class="img-responsive" alt="nclhealth"></figure>
+                            class="img-responsive" alt="nclhealth" width="400" height="300"></figure>
                 </div>
             </li>
         </ul>
-        <a href="{{ url('portfolio') }}" class="know-more btn-learn-more">Full Portfolio</a>
+        <a href="{{ url('portfolio') }}" class="know-more btn-learn-more" aria-label="View our full portfolio of projects">Full Portfolio</a>
     </div>
 </section>
 <section class="counter-section">
