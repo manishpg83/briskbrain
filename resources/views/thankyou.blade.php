@@ -218,8 +218,9 @@
                                 aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="skype://manish-bhuva?chat" target="_blank"><i class="fa fa-skype"
-                                aria-hidden="true"></i></a>
+                        <a href="https://teams.microsoft.com/l/chat/0/0?users=manish.bhuvait@gmail.com" target="_blank">
+                            <i class="bi bi-microsoft-teams" aria-hidden="true"></i>
+                        </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/company/briskbrain/" target="_blank"><i class="fa fa-linkedin"
